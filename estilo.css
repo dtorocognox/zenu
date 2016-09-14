@@ -1,13 +1,10 @@
 body{
     margin: 0px;
-    /*background: #f8f8f8;*/
     font-family: 'Poppins', sans-serif;
 }
 
 header{
-    background: #d83839;
     color:  #f8f8f8;
-    height: 110px;
     display: block;
 }
 
@@ -25,14 +22,15 @@ a:hover{
     padding: 40px;
 }
 
+.rojo{
+    background: #d83839;
+    height: 110px;
+}
 
 .blanco{
     color: #d83839;
-}
-
-#menu{
-    list-style: none;
-    display: inline-flex;
+    margin: auto;
+    background: #f8f8f8;
 }
 
 .enlaces{
@@ -44,6 +42,10 @@ a:hover{
 }
 
 
+#menu{
+    list-style: none;
+    display: inline-flex;
+}
 
 #logo{
     float: left;
@@ -58,6 +60,3 @@ a:hover{
     padding-top: 20px;
 }
 
-#desplegable img{
-    justify-content: center;
-}
