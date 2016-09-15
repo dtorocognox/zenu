@@ -1,3 +1,31 @@
 /**
- * Created by dtoro on 15/09/2016.
+ * Array con las imagenes que se iran mostrando en la web
  */
+var imagenes=new Array(
+    'image/practicarnes.png',
+    'image/salchichon.jpg'
+);
+
+/**
+ * Funcion para cambiar la imagen
+ */
+function rotarImagenes()
+{
+    // obtenemos un numero aleatorio entre 0 y la cantidad de imagenes que hay
+    var index=Math.floor((Math.random()*imagenes.length));
+
+    // cambiamos la imagen
+    document.getElementById("imagen").src=imagenes[index];
+}
+
+/**
+ * Función que se ejecuta una vez cargada la página
+ */
+onload=function()
+    {
+        // Cargamos una imagen aleatoria
+        rotarImagenes();
+
+        // Indicamos que cada 5 segundos cambie la imagen
+        setInterval(rotarImagenes,3000);
+    }

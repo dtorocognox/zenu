@@ -60,7 +60,9 @@ a:hover{
 #menu{
     list-style: none;
     margin: 0;
+}
 
+#despleble{
 
 }
 
@@ -79,14 +81,6 @@ a:hover{
     float: left;
     font-size: 130%;
     padding-top: 20px;
-}
-
-#imagenes{
-
-}
-
-#carnes{
-    /*width: auto;*/
 }
 
 #parrafo{
