@@ -1,3 +1,7 @@
+*{
+    text-align: center;
+}
+
 body{
     margin: 0px;
     font-family: 'Poppins', sans-serif;
@@ -5,7 +9,8 @@ body{
 
 header{
     color:  #f8f8f8;
-    display: block;
+    border-bottom: #d83839  1px solid;
+
 }
 
 a{
@@ -19,7 +24,8 @@ a:hover{
 .cabecera-derecha{
     float: right;
     display: flex;
-    padding: 40px;
+    padding-top: 35px;
+    padding-right: 40px;
 }
 
 .rojo{
@@ -29,8 +35,9 @@ a:hover{
 
 .blanco{
     color: #d83839;
-    margin: auto;
-    background: #f8f8f8;
+    height: 40px;
+    padding-top: 20px;
+
 }
 
 .enlaces{
@@ -41,10 +48,24 @@ a:hover{
     padding-left: 7px;
 }
 
+.lista{
+    display: inline-block;
+    border-left: #d83839  1px solid;
+}
+
+.boton-blanco{
+    color: #d83839;
+}
 
 #menu{
     list-style: none;
-    display: inline-flex;
+    margin: 0;
+
+
+}
+
+#reportes{
+    border-right: #d83839  1px solid;
 }
 
 #logo{
@@ -60,3 +81,14 @@ a:hover{
     padding-top: 20px;
 }
 
+#imagenes{
+
+}
+
+#carnes{
+    /*width: auto;*/
+}
+
+#parrafo{
+    color: #BFBFBF;
+}
