@@ -26,13 +26,15 @@
         <div class="blanco">
             <nav>
                 <ul id="menu">
-                    <li class="lista">
+                    <li class="lista" id="boton_inicio">
                         <a class="boton-blanco">&emsp; Inicio &emsp;</a>
                     </li>
-                    <li class="lista">
+                    <li class="lista" id="boton-config">
                             <a class="boton-blanco" id="desplegable">
                                 &emsp; Configuración &emsp;
-                                <img id="flecha" src="image/iconos/17x11px%20desplegar.png">
+                                <!--<img id="flecha" src="image/iconos/17x11px%20desplegar.png"/>-->
+                                <!--<img id="flecha" src="image/iconos/17x11px%20desplegar.png" onmouseover="javascript:this.src='image/iconos/17x11pxdesplegar2.png';"-->
+                                     <!--onmouseout="javascript:this.src='image/iconos/17x11px%20desplegar.png';"/>>-->
                             </a>
                     </li>
                     <li class="lista">
@@ -65,6 +67,7 @@
 </body>
 <script>
     document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +
-            ':35729/livereload.js?snipver=1"></' + 'script>')
+            ':35729/livereload.js?snipver=1"></' + 'script>');
+    inicio();
 </script>
 </html>

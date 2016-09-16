@@ -57,6 +57,32 @@ a:hover{
     color: #d83839;
 }
 
+.boton-blanco:hover{
+    color:  #f8f8f8;
+    background: #d83839;
+}
+
+/*#flecha:hover{*/
+    /*background: #d83839 url(image/iconos/17x11pxdesplegar2.png) no-repeat;*/
+/*}*/
+
+#boton_inicio{
+    border-right: #d83839  1px solid;
+}
+
+#boton-config{
+    height: 36px;
+    border-left: none;
+    background: white url(image/iconos/17x11pxdesplegar.png) no-repeat;
+    background-position: center bottom;
+}
+
+#boton-config:hover{
+    color:  #f8f8f8;
+    background: #d83839 url(image/iconos/17x11pxdesplegar2.png) no-repeat;
+    background-position: center bottom;
+}
+
 #menu{
     list-style: none;
     margin: 0;
@@ -65,7 +91,6 @@ a:hover{
 #desplegable{
     display: inline-flex;
     flex-direction: column;
-    margin: auto;
 }
 
 #flecha{
