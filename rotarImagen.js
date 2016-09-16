@@ -32,14 +32,3 @@ onload=function()
         // Indicamos que cada 5 segundos cambie la imagen
         setInterval(rotarImagenes,3000);
     }
-
-    function inicio() {
-        b = document.getElementById("boton-config");
-        desplegable.getElementById("flecha");
-        b.addEventListener("onmouseover", cambiarDesplegable);
-    }
-
-    function cambiarDeplegable(){
-
-        desplegable.innerHTML="XXXXX";
-    }
