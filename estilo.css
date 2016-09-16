@@ -62,8 +62,14 @@ a:hover{
     margin: 0;
 }
 
-#despleble{
+#desplegable{
+    display: inline-flex;
+    flex-direction: column;
+    margin: auto;
+}
 
+#flecha{
+    margin: auto;
 }
 
 #reportes{
