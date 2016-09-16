@@ -1,14 +1,6 @@
-/**{
-    text-align: center;
-}
-*/
-
 .blanco #menu{
     text-align: center;
 }
-
-
-
 
 body{
     margin: 0px;
@@ -61,6 +53,8 @@ a:hover{
     border-left: #d83839  1px solid;
 }
 
+
+
 .segunda_lista{
     /*display: none;*/
     list-style: none ;
@@ -104,7 +98,7 @@ a:hover{
     border-left: none;
     background: white url(image/iconos/17x11pxdesplegar.png) no-repeat;
     background-position: center bottom;
-    
+
 }
 
 #boton-config:hover{
