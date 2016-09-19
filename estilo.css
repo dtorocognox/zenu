@@ -36,8 +36,7 @@ a:hover{
 .blanco{
     color: #d83839;
     height: 40px;
-    padding-top: 20px;
-
+    padding-bottom: 25px;
 }
 
 .enlaces{
@@ -83,18 +82,12 @@ a:hover{
     color: #d83839;
 }
 
-.boton-blanco:hover{
-    color:  #f8f8f8;
-    background: #d83839;
-}
-
-
 #boton_inicio{
     border-right: #d83839  1px solid;
 }
 
 #boton-config{
-    height: 36px;
+    height: 40px;
     border-left: none;
     background: white url(image/iconos/17x11pxdesplegar.png) no-repeat;
     background-position: center bottom;
@@ -110,6 +103,7 @@ a:hover{
 #menu{
     list-style: none;
     margin: 0;
+    padding: 20px;
 }
 
 #desplegable{
@@ -141,3 +135,28 @@ a:hover{
 #parrafo{
     color: #BFBFBF;
 }
+
+#supersubmenu{
+    display: none;
+}
+
+#boton-config:hover div{
+    display: block;
+}
+
+#imagenes{
+    text-align: center;
+}
+
+#cajasRotativas{
+    height: 40px;
+    padding-top: 10px;
+    padding-right: 30px;
+    text-align: right;
+}
+
+#menu li:hover{
+    color: #f8f8f8;
+}
+
+
